@@ -1,8 +1,9 @@
-export default function Register() {
+import RegisterComponents from "@/components/register";
+
+export default function RegisterPage() {
 	return (
-		<div>
-			<h1>회원가입</h1>
-			<div></div>
-		</div>
+		<>
+			<RegisterComponents />
+		</>
 	);
 }
